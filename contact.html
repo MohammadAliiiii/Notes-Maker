@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Developer</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Poppins:wght@500&display=swap');
+    body {
+      font-family: 'Ephesis', cursive;
+      font-family: 'Poppins', sans-serif;
+      margin: 20px;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+
+    h1, h2 {
+      color: #333;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+      border-radius: 1vh;
+      border: 3px solid black;
+    }
+
+    input[type="submit"] {
+      background-color: #009688;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #00796b;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Contact Developer</h1>
+<br>
+<p>We'd love to hear from you! If you have feedback, suggestions, or questions, feel free to reach out to us:</p>
+<br><br>
+<form action="mailto:alimohammad0482@gmail.com" method="post" enctype="text/plain">
+  <label for="name">Your Name:</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">Your Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="message">Your Message:</label>
+  <textarea id="message" name="message" rows="4" required></textarea>
+
+  <input type="submit" value="Send Message">
+</form>
+
+</body>
+</html>

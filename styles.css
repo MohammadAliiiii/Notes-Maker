@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=Protest+Strike&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    background-color: #f5f5f5;
+  }
+  
+  h1 {
+    padding-bottom: 20px;
+    padding-top: 10px;
+    color: white;
+    background: black;
+    font-size: 5vh;
+    margin-bottom: -3vh;
+  }
+  h5{
+    color: white;
+    font-weight: 1px;
+
+  }
+  
+  .tiles-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .tile {
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-right: 40px;
+  }
+  
+  input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    resize: none;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2vh;
+  }
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    resize: none;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2vh;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+    background: #000;
+    color: white;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2vh;
+  }
+  
+  button.save-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  button.remove-button {
+    background-color: #dc3545;
+    color: #fff;
+    margin-left: 10px;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  nav ul li{
+    list-style: none;
+    margin: 20px;
+}
+nav ul{
+      display: flex;
+    background: black;
+    justify-content: center;
+    padding-top: 10px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+  }
+  
